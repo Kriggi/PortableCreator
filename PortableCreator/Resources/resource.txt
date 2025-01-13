@@ -1,9 +1,9 @@
 Ресурсы:
 
-IconExtractor - библиотека изщвлечения значков из испольняемых файлов и библиотек
+IconExtractor - библиотека извлечения значков из исполняемых файлов и библиотек
 https://github.com/TsudaKageyu/IconExtractor
 
-CheckSum.exe - любая утилита команлной строки для добавления/изменения контрольной суммы файла
+CheckSum.exe - любая утилита командной строки для добавления/изменения контрольной суммы файла
 http://run.to/sz
 или
 https://github.com/waleedassar/PEChecksum
