@@ -1,0 +1,1183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="txtSource.Text" xml:space="preserve">
+    <value>using System;
+using System.Linq;
+using System.ComponentModel;
+using System.Collections.Generic;
+using System.Windows.Forms;
+using System.Diagnostics;
+using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Runtime.InteropServices;
+using System.Runtime.CompilerServices;
+using System.Runtime.Versioning;
+using System.Reflection;
+using System.Resources;
+using Microsoft.Win32;
+
+[assembly: AssemblyVersion("2.4.0.0")]
+[assembly: AssemblyTitle("PortableCreator")]
+[assembly: AssemblyDescription("Загрузчик приложения. Создан с помощью PortableCreator.")]
+[assembly: AssemblyConfiguration("Release")]
+[assembly: AssemblyCompany("Ru-Board Community")]
+[assembly: AssemblyProduct("PortableCreator")]
+[assembly: AssemblyCopyright("Никита@dvgm (https://win10tweaker.ru/forum/)")]
+[assembly: AssemblyTrademark("Ru-Board©2025")]
+[assembly: AssemblyFileVersion("2.4.0.0")]
+[assembly: ComVisible(false)]
+
+namespace test
+{
+  static class Program
+  {
+    [STAThread]
+    static void Main(string[] args)
+    {
+      Application.EnableVisualStyles();
+      Application.SetCompatibleTextRenderingDefault(false);
+      Application.Run(new Form1(args));
+    }
+  }
+
+  public partial class Form1 : Form
+  {
+    public Form1(string[] args)
+    {
+      InitializeComponent(args);
+    }
+  }
+
+  partial class Form1
+  {
+    private IContainer components = null;
+    protected override void Dispose(bool disposing)
+    {
+      if (disposing &amp;&amp; (components != null))
+      {
+        components.Dispose();
+      }
+      base.Dispose(disposing);
+    }
+
+    [System.Runtime.InteropServices.DllImport("Shell32.dll")]
+    private static extern int SHChangeNotify(int eventId, int flags, IntPtr item1, IntPtr item2);
+
+    void PS(string command)
+    {
+      using (var ps = System.Management.Automation.PowerShell.Create())
+      {
+        ps.AddScript(command);
+        ps.Invoke();
+      }
+    }
+
+    string launcherName = System.AppDomain.CurrentDomain.FriendlyName;
+    string appPath = System.AppDomain.CurrentDomain.BaseDirectory;
+    string userPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+    string localLowPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData).Replace("Local", "LocalLow");
+    string localPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+    string roamingPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+    string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+    string musicPath = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
+    string videosPath = Environment.GetFolderPath(Environment.SpecialFolder.MyVideos);
+    string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+    string picturesPath = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
+    string taskbarPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\Microsoft\Internet Explorer\Quick Launch\User Pinned";
+
+    private void InitializeComponent(string[] args)
+    {
+      components = new Container();
+      AutoScaleMode = AutoScaleMode.Font;
+      Text = "Form1";
+      FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+      WindowState = FormWindowState.Minimized;
+      Visible = false;
+      ShowInTaskbar = false;
+      Opacity = 0;
+
+      Type type = Type.GetTypeFromProgID("WScript.Shell");
+      dynamic shell = Activator.CreateInstance(type);
+
+      Load += async (s, a) =&gt;
+      {
+        List&lt;string&gt; exes = Directory.GetFiles(appPath, "*.exe", SearchOption.TopDirectoryOnly).ToList();
+        int runs = 1;
+        exes.ForEach(x =&gt;
+        {
+          if (x != appPath + launcherName &amp;&amp; GetProcessPIDs(x).Length &gt; 0 || x == appPath + launcherName &amp;&amp; GetProcessPIDs(x).Length &gt; 1)
+          {
+            runs++;
+          }
+        });
+        if (runs == 1)
+        {
+          using (RegistryKey Key = Registry.CurrentUser.OpenSubKey(@"Software\PortableClosing", true))
+          {
+            if (Key != null)
+            {
+              string[] subKeys = Key.GetValueNames();
+              if (subKeys.Length &gt; 1 &amp;&amp; subKeys.Any(x =&gt; x == appPath))
+              {
+                Key.DeleteValue(appPath);
+              }
+              else if (subKeys.Length == 1 &amp;&amp; subKeys.Any(x =&gt; x == appPath) || subKeys.Length == 0)
+              {
+                Registry.CurrentUser.DeleteSubKey(@"Software\PortableClosing");
+              }
+            }
+          }
+          using (RegistryKey Key = Registry.CurrentUser.OpenSubKey(@"Software\PortableRunning", true))
+          {
+            if (Key != null)
+            {
+              string[] subKeys = Key.GetValueNames();
+              if (subKeys.Length &gt; 1 &amp;&amp; subKeys.Any(x =&gt; x == appPath))
+              {
+                Key.DeleteValue(appPath);
+              }
+              else if (subKeys.Length == 1 &amp;&amp; subKeys.Any(x =&gt; x == appPath) || subKeys.Length == 0)
+              {
+                Registry.CurrentUser.DeleteSubKey(@"Software\PortableRunning");
+              }
+            }
+          }
+        }
+        using (RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\PortableClosing"))
+        {
+          if (key != null)
+          {
+            object closingPath = key.GetValue(appPath);
+            if (closingPath != null)
+            {
+              Environment.Exit(0);
+            }
+          }
+        }
+        string[] dirs;
+        string symLinkDestination = "";
+        List&lt;string&gt; driversPath = new List&lt;string&gt;();
+        List&lt;string&gt; list = new List&lt;string&gt;();
+        List&lt;string&gt; servicesForDelete = new List&lt;string&gt;();
+        string executablePath = appPath + @"\EXEPATH";
+        bool isUpdateMode = false;
+        string ar = "";
+
+        if (args.Length &gt; 0)
+        {
+          List&lt;string&gt; tokens = args.ToList();
+          tokens.ForEach(x =&gt; {
+            if (x.ToLower() == "--um") { isUpdateMode = true; }
+            {
+              if (x.ToLower() == "--showargs") { MessageBox.Show(string.Join(System.Environment.NewLine, tokens)); }
+              else
+              {
+                if (!x.StartsWith("\"") &amp;&amp; !x.EndsWith("\"")) { x = "\"" + x + "\""; }
+                ar = ar + x + " ";
+              }
+            }
+          });
+        }
+
+        using (RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\PortableRunning", true))
+        {
+          if (key != null)
+          {
+            object runningPath = key.GetValue(appPath);
+            if (runningPath != null)
+            {
+              if (!File.Exists(executablePath) &amp;&amp; runs &gt; 1 &amp;&amp; executablePath.StartsWith(@"C:\Program Files"))
+              {
+                executablePath = executablePath.Replace("C:", appPath + "Data");
+              }
+              Process.Start(executablePath, ar);
+              Environment.Exit(0);
+            }
+          }
+        }
+        using (RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Software\PortableRunning"))
+        {
+          key.SetValue(appPath, "");
+        }
+
+
+        await Import(appPath);
+
+        await CreateCustomSymLinks(appPath, userPath, list);
+
+        if (Directory.Exists(appPath + @"App"))
+        {
+          if (IsDirectoryEmpty(appPath + @"App"))
+          {  //Проверка директории App
+            Directory.Delete(appPath + @"App", true);
+          }
+        }
+
+        if (Directory.Exists(appPath + @"Data\AppData\Local"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\AppData\Local"))
+          {  //Симлинк на AppData\Local
+            dirs = Directory.GetDirectories(appPath + @"Data\AppData\Local", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = localPath + dir.Replace(appPath + @"Data\AppData\Local", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\AppData\Local", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\AppData\Roaming"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\AppData\Roaming"))
+          {  //Симлинк на AppData\Roaming
+            dirs = Directory.GetDirectories(appPath + @"Data\AppData\Roaming", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = roamingPath + dir.Replace(appPath + @"Data\AppData\Roaming", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\AppData\Roaming", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\AppData\LocalLow"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\AppData\LocalLow"))
+          {  //Симлинк на AppData\LocalLow
+            dirs = Directory.GetDirectories(appPath + @"Data\AppData\LocalLow", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = localLowPath + dir.Replace(appPath + @"Data\AppData\LocalLow", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\AppData\LocalLow", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Пользователи\Музыка"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Пользователи\Музыка"))
+          { //Симлинк на Музыка
+            dirs = Directory.GetDirectories(appPath + @"Data\Пользователи\Музыка", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = musicPath + dir.Replace(appPath + @"Data\Пользователи\Музыка", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Пользователи\Музыка", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Пользователи\Изображения"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Пользователи\Изображения"))
+          { //Симлинк на Изображения
+            dirs = Directory.GetDirectories(appPath + @"Data\Пользователи\Изображения", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = picturesPath + dir.Replace(appPath + @"Data\Пользователи\Изображения", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Пользователи\Изображения", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Пользователи\Загрузки"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Пользователи\Загрузки"))
+          { //Симлинк на Загрузки
+            dirs = Directory.GetDirectories(appPath + @"Data\Пользователи\Загрузки", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = userPath + dir.Replace(appPath + @"Data\Пользователи\Загрузки", "\\downloads");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Пользователи\Загрузки", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Пользователи\Документы"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Пользователи\Документы"))
+          { //Симлинк на Документы
+            dirs = Directory.GetDirectories(appPath + @"Data\Пользователи\Документы", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = documentsPath + dir.Replace(appPath + @"Data\Пользователи\Документы", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Пользователи\Документы", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Пользователи\Общие\Документы"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Пользователи\Общие\Документы"))
+          { //Симлинк на Общие Документы
+            dirs = Directory.GetDirectories(appPath + @"Data\Пользователи\Общие\Документы", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = "C:\\users\\public" + dir.Replace(appPath + @"Data\Пользователи\Общие\Документы", "\\documents");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Пользователи\Общие\Документы", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Пользователи\Видео"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Пользователи\Видео"))
+          { //Симлинк на Видео
+            dirs = Directory.GetDirectories(appPath + @"Data\Пользователи\Видео", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = videosPath + dir.Replace(appPath + @"Data\Пользователи\Видео", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Пользователи\Видео", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Пользователи\Рабочий стол"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Пользователи\Рабочий стол"))
+          { //Симлинк на Рабочий стол
+            dirs = Directory.GetDirectories(appPath + @"Data\Пользователи\Рабочий стол", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = desktopPath + dir.Replace(appPath + @"Data\Пользователи\Рабочий стол", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Пользователи\Рабочий стол", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\ProgramData"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\ProgramData"))
+          {  //Симлинк на ProgramData
+            dirs = Directory.GetDirectories(appPath + @"Data\ProgramData", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = "C:\\" + dir.Replace(appPath + "Data\\", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\ProgramData", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Program Files\Common Files"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Program Files\Common Files"))
+          {  //Симлинк на Common Files
+            dirs = Directory.GetDirectories(appPath + @"Data\Program Files\Common Files", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = "C:\\" + dir.Replace(appPath + "Data\\", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Program Files\Common Files", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Program Files (x86)\Common Files"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Program Files (x86)\Common Files"))
+          {  //Симлинк на Common Files (x86)
+            dirs = Directory.GetDirectories(appPath + @"Data\Program Files (x86)\Common Files", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              symLinkDestination = "C:\\" + dir.Replace(appPath + "Data\\", "");
+              Create(dir, symLinkDestination, "Folder");
+              list.Add(symLinkDestination);
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Program Files (x86)\Common Files", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Program Files"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Program Files"))
+          {  //Симлинк на Program Files
+            dirs = Directory.GetDirectories(appPath + @"Data\Program Files", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              if (!dir.Contains(@"\Program Files\Common Files"))
+              {
+                symLinkDestination = "C:\\" + dir.Replace(appPath + "Data\\", "");
+                Create(dir, symLinkDestination, "Folder");
+                list.Add(symLinkDestination);
+              }
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Program Files", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Program Files (x86)"))
+        {
+          if (!IsDirectoryEmpty(appPath + @"Data\Program Files (x86)"))
+          {  //Симлинк на Program Files (x86)
+            dirs = Directory.GetDirectories(appPath + @"Data\Program Files (x86)", "*", SearchOption.TopDirectoryOnly);
+            foreach (string dir in dirs)
+            {
+              if (!dir.Contains(@"\Program Files (x86)\Common Files"))
+              {
+                symLinkDestination = "C:\\" + dir.Replace(appPath + "Data\\", "");
+                Create(dir, symLinkDestination, "Folder");
+                list.Add(symLinkDestination);
+              }
+            }
+          }
+          else { Directory.Delete(appPath + @"Data\Program Files (x86)", true); }
+        }
+
+        if (Directory.Exists(appPath + @"Data\Драйвер"))
+        { // Установка драйверов
+          if (IsDirectoryEmpty(appPath + @"Data\Драйвер"))
+          {
+            Directory.Delete(appPath + @"Data\Драйвер", true);
+          }
+          else
+          {
+            dirs = Directory.GetDirectories(appPath + @"Data\Драйвер", "*", SearchOption.TopDirectoryOnly);
+            List&lt;string&gt; driverDirs = (Directory.GetDirectories(appPath + @"Data\Драйвер", "*", SearchOption.TopDirectoryOnly)).ToList();
+            driverDirs.AsParallel().ForAll(dir =&gt; {
+              driversPath.Add(dir);
+              string command = "Get-ChildItem \"" + dir + "\" -Recurse -Filter \"*.inf\" | ForEach-Object { PNPUtil.exe /add-driver $_.FullName /install }";
+              PS(command);
+            });
+
+          }
+        }
+
+        new List&lt;string&gt; { appPath + @"Data\Закрыть.txt", appPath + @"Data\Реестр\Удалить.txt", appPath + @"Data\Кастом.txt", appPath + @"Data\Проводник.txt", appPath + @"Data\Службы.txt" }.ForEach(x =&gt; {
+          if (File.Exists(x))
+          { // Проверка пустых файлов
+            if (new FileInfo(x).Length == 0)
+            {
+              File.Delete(x);
+            }
+            else
+            {
+              if (x.EndsWith(@"Data\Службы.txt"))
+              {
+                List&lt;string&gt; services = new List&lt;string&gt;(File.ReadAllLines(appPath + @"Data\Службы.txt"));
+                int num = 1;
+                services.ForEach(y =&gt;
+                {
+                  string serviceName = launcherName.Replace(".exe", " " + num);
+                  PS("New-Service -Name \"" + serviceName + "\" -StartupType Manual -BinaryPathName \"" + y.Replace("\"", "`\"") + "\"");
+                  PS("Start-Service -Name \"" + serviceName + "\"");
+                  servicesForDelete.Add(serviceName);
+                  num++;
+                });
+              }
+            }
+          }
+        });
+
+        new List&lt;string&gt; { appPath + @"Data\Пользователи\Общие", appPath + @"Data\Пользователи", appPath + @"Data\Реестр", appPath + @"Data\AppData" }.ForEach(x =&gt; {
+          if (Directory.Exists(x))
+          { //Проверка пустых директорий
+            if (IsDirectoryEmpty(x))
+            {
+              Directory.Delete(x, true);
+            }
+          }
+        });
+
+        List&lt;string&gt; apps = new List&lt;string&gt;();
+        List&lt;string&gt; exeArgs = new List&lt;string&gt;();
+        exes.ForEach(x =&gt;
+        {
+          apps.Add(GetAppExecutablePath(x, "executablePath"));
+          exeArgs.Add(GetAppExecutablePath(x, "executableArgs").Replace(x, ""));
+        });
+        List&lt;string&gt; lnks = Directory.GetFiles(taskbarPath, "*.lnk", SearchOption.AllDirectories).ToList();
+        if (lnks.Count &gt; 0)
+        {
+          lnks.ForEach(lnk =&gt;
+          {
+            dynamic shortcut = shell.CreateShortcut(lnk);
+            for (int i = 0; i &lt; exes.Count; i++)
+            {
+              if (exes[i] == shortcut.TargetPath)
+              {
+                shortcut.TargetPath = apps[i].StartsWith("C:\\Program Files") ? apps[i].Replace("C:", appPath + "Data") : apps[i];
+                shortcut.Arguments = exeArgs[i];
+                shortcut.Save();
+              }
+            }
+          });
+          SHChangeNotify(0x00001000, 0x2000 | 0x0005, Marshal.StringToHGlobalUni(taskbarPath), IntPtr.Zero);
+        }
+
+        if (!File.Exists(executablePath))
+        {
+          try
+          {
+            List&lt;string&gt; checkForExe = Directory.GetFiles(Directory.GetParent(Path.GetDirectoryName(executablePath)).FullName, Path.GetFileName(executablePath), SearchOption.AllDirectories).ToList();
+            if (checkForExe.Count &gt; 0)
+            {
+              executablePath = checkForExe[0];
+            }
+          }
+          catch { }
+        }
+
+        if (File.Exists(executablePath))
+        {
+          var process = Process.Start(executablePath, ar);
+          process.WaitForExit();
+        }
+        else
+        {
+          MessageBox.Show("Исполняемый файл приложения не найден.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        CheckRunsBeforeExit(new List&lt;string&gt;(apps));
+
+        lnks = Directory.GetFiles(taskbarPath, "*.lnk", SearchOption.AllDirectories).ToList();
+        if (lnks.Count &gt; 0)
+        {
+          lnks.ForEach(lnk =&gt;
+          {
+            dynamic shortcut = shell.CreateShortcut(lnk);
+            for (int i = 0; i &lt; apps.Count; i++)
+            {
+              string targetPath = apps[i].StartsWith("C:\\Program Files") ? apps[i].Replace("C:", appPath + "Data") : apps[i];
+              if (targetPath == shortcut.TargetPath)
+              {
+                shortcut.TargetPath = exes[i];
+                shortcut.Arguments = "";
+                shortcut.Save();
+              }
+            }
+          });
+          SHChangeNotify(0x00001000, 0x2000 | 0x0005, Marshal.StringToHGlobalUni(taskbarPath), IntPtr.Zero);
+        }
+
+        using (RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Software\PortableClosing"))
+        {
+          key.SetValue(appPath, "");
+        }
+        using (RegistryKey Key = Registry.CurrentUser.OpenSubKey(@"Software\PortableRunning", true))
+        {
+          if (Key != null)
+          {
+            string[] subKeys = Key.GetValueNames();
+            if (subKeys.Length &gt; 1)
+            {
+              Key.DeleteValue(appPath);
+            }
+            else
+            {
+              Registry.CurrentUser.DeleteSubKey(@"Software\PortableRunning");
+            }
+          }
+        }
+
+        if (File.Exists(appPath + @"\--um.txt"))
+        {
+          isUpdateMode = true;
+        }
+        if (!isUpdateMode)
+        {
+          List&lt;Task&gt; tasks = new List&lt;Task&gt;();
+          tasks.Add(Export(appPath));
+          tasks.Add(KillProcess(appPath));
+          tasks.Add(RemoveSymLinks(list));
+          tasks.Add(RemoveCustomRegistryKeys(appPath));
+          tasks.Add(RemoveFilesFolders(appPath, userPath));
+          await Task.WhenAll(tasks);
+          servicesForDelete.ForEach(x =&gt;
+          {
+            PS("Stop-Service -Name \"" + x + "\"");
+            PS("sc.exe Delete \"" + x + "\"");
+          });
+          driversPath.AsParallel().ForAll(dir =&gt; {
+            string command = "Get-ChildItem \"" + dir + "\" -Recurse -Filter \"*.inf\" | ForEach-Object { PNPUtil.exe /delete-driver $_.FullName /uninstall }";
+            PS(command);
+          });
+        }
+
+        string cmdExit = "";
+        using (RegistryKey Key = Registry.CurrentUser.OpenSubKey(@"Software\PortableClosing"))
+        {
+          if (Key != null)
+          {
+            string[] subKeys = Key.GetValueNames();
+            if (subKeys.Length &gt; 1)
+            {
+              cmdExit = "/v " + appPath;
+            }
+          }
+        }
+        //ClearLogs
+        SHChangeNotify(0x8000000, 0x2000, IntPtr.Zero, IntPtr.Zero);
+        Process.Start(new ProcessStartInfo
+        {
+          FileName = "cmd",
+          Arguments = "/c taskkill /f /pid \"" + Process.GetCurrentProcess().Id + "\" &amp;&amp; reg delete HKEY_CURRENT_USER\\Software\\PortableClosing " + cmdExit + " /f",
+          WindowStyle = ProcessWindowStyle.Hidden,
+          CreateNoWindow = true
+        });
+      };
+    }
+
+
+    [DllImport("kernel32.dll")]
+    static extern bool CreateSymbolicLink(
+    string lpSymlinkFileName, string lpTargetFileName, SymbolicLink dwFlags);
+
+    enum SymbolicLink
+    {
+      File = 0,
+      Directory = 1
+    }
+
+    void Create(string source, string destination, string type)
+    {
+      if (type == "File")
+      {
+        if (!File.Exists(destination))
+        {
+          CreateSymbolicLink(destination, source, SymbolicLink.File);
+        }
+        else
+        {
+          if (!IsSymbolic(destination))
+          {
+            File.Move(destination, destination + ".portable_backup");
+            CreateSymbolicLink(destination, source, SymbolicLink.File);
+            // MessageBox.Show("Файл уже существует по пути: " + destination + "\r\nСимволическая ссылка не будет создана во избежание потери данных");
+          }
+        }
+      }
+      else
+      {
+        if (!Directory.Exists(destination))
+        {
+          CreateSymbolicLink(destination, source, SymbolicLink.Directory);
+        }
+        else
+        {
+          if (!IsSymbolic(destination))
+          {
+            Directory.Move(destination, destination + ".portable_backup");
+            CreateSymbolicLink(destination, source, SymbolicLink.Directory);
+            // MessageBox.Show("Папка уже существует по пути: " + destination + "\r\nСимволическая ссылка не будет создана во избежание потери данных");
+          }
+        }
+      }
+    }
+
+
+    public bool IsDirectoryEmpty(string path)
+    {
+      string[] dirs = Directory.GetDirectories(path); string[] files = Directory.GetFiles(path);
+      return dirs.Length == 0 &amp;&amp; files.Length == 0;
+    }
+
+    async Task Import(string appPath) //Импорт в реестр
+    {
+      if (Directory.Exists(appPath + @"\Data\Реестр"))
+      {
+        List&lt;string&gt; dirs = (Directory.GetFiles(appPath + @"\Data\Реестр", "*", SearchOption.TopDirectoryOnly)).ToList();
+        dirs.AsParallel().ForAll(dir =&gt; {
+          if (dir.EndsWith(".reg"))
+          {
+            string originalFile = "";
+            originalFile = File.ReadAllText(dir);
+            File.WriteAllText(dir, new Regex(@"HKEY_USERS\\.*?\\SOFTWARE\\").Replace(originalFile, @"HKEY_CURRENT_USER\SOFTWARE\"), Encoding.UTF8);
+            Process regeditProcess = Process.Start("regedit.exe", "/s \"" + dir + "\"");
+            regeditProcess.WaitForExit();
+          }
+        });
+        await Task.Delay(1);
+      }
+    }
+
+    async Task Export(string appPath) //Экспорт из реестра
+    {
+      if (Directory.Exists(appPath + @"\Data\Реестр"))
+      {
+        List&lt;string&gt; dirs = (Directory.GetFiles(appPath + @"\Data\Реестр", "*", SearchOption.TopDirectoryOnly)).ToList();
+
+        dirs.AsParallel().ForAll(dir =&gt; {
+          if (dir.EndsWith(".reg"))
+          {
+            string exportPath = dir;
+            string[] lines = File.ReadAllLines(dir);
+            string registryPath = lines[2].Replace("[", "").Replace("]", "");
+            string path = "\"" + exportPath + "\"";
+            string key = "\"" + registryPath + "\"";
+            using (Process proc = new Process())
+            {
+              try
+              {
+                Process process = Process.Start(new ProcessStartInfo
+                {
+                  FileName = "reg.exe",
+                  Arguments = "export " + key + " " + path + " /y",
+                  WindowStyle = ProcessWindowStyle.Hidden
+                });
+                process.WaitForExit();
+              }
+              catch (Exception) { }
+            }
+            using (Process proc = new Process())
+            {
+              try
+              {
+                Process process = Process.Start(new ProcessStartInfo
+                {
+                  FileName = "reg.exe",
+                  Arguments = "delete " + key + " /f",
+                  WindowStyle = ProcessWindowStyle.Hidden
+                });
+                process.WaitForExit();
+              }
+              catch (Exception) { }
+            }
+          }
+        });
+        await Task.Delay(1);
+      }
+    }
+
+    async Task KillProcess(string appPath)
+    {
+      try
+      {
+        string[] processesForClose = File.ReadAllLines(appPath + @"\Data\Закрыть.txt");
+        string procName = "";
+        foreach (string name in processesForClose)
+        {
+          if (name.EndsWith(".exe")) { procName = name.Replace(".exe", ""); }
+          foreach (var processKiller in Process.GetProcessesByName(procName))
+          {
+            processKiller.Kill();
+            processKiller.WaitForExit();
+          }
+        }
+      }
+      catch { }
+      await Task.Delay(1);
+    }
+
+    async Task RemoveSymLinks(List&lt;string&gt; dirsForDelete)
+    {
+      try
+      {
+        dirsForDelete.AsParallel().ForAll(dir =&gt; {
+          if (IsSymbolic(dir))
+          {
+            if (Directory.Exists(dir))
+            {
+              Directory.Delete(dir, true);
+            }
+            if (Directory.Exists(dir + ".portable_backup"))
+            {
+              Directory.Move(dir + ".portable_backup", dir);
+            }
+            if (File.Exists(dir))
+            {
+              File.Delete(dir);
+            }
+            if (File.Exists(dir + ".portable_backup"))
+            {
+              File.Move(dir + ".portable_backup", dir);
+            }
+          }
+          else
+          {
+            //MessageBox.Show("This " + dir + " is not Symbol");
+          }
+        });
+      }
+      catch { }
+      await Task.Delay(1);
+    }
+
+    bool IsSymbolic(string path)
+    {
+      FileInfo pathInfo = new FileInfo(path);
+      return pathInfo.Attributes.HasFlag(FileAttributes.ReparsePoint);
+    }
+
+    async Task RemoveCustomRegistryKeys(string appPath)
+    {
+      using (Process proc = new Process())
+      {
+        try
+        {
+          List&lt;string&gt; allKeys = new List&lt;string&gt;(File.ReadAllLines(appPath + @"\Data\Реестр\Удалить.txt"));
+          allKeys.AsParallel().ForAll(x =&gt;
+          {
+            string key = x.Replace("Компьютер\\", "");
+            string argument = "";
+            if (key.Contains(" -v "))
+            {
+              argument = "delete \"" + key.Replace(" -v ", "\" /v \"") + "\" /f";
+            }
+            else
+            {
+              argument = "delete \"" + key + "\" /f";
+            }
+            Process process = Process.Start(new ProcessStartInfo
+            {
+              FileName = "reg.exe",
+              Arguments = argument,
+              WindowStyle = ProcessWindowStyle.Hidden
+            });
+            process.WaitForExit();
+          });
+        }
+        catch (Exception) { }
+      }
+      await Task.Delay(1);
+    }
+
+    async Task RemoveFilesFolders(string appPath, string userPath)
+    {
+      try
+      {
+        List&lt;string&gt; pathsForRemove = new List&lt;string&gt;(File.ReadAllLines(appPath + @"\Data\Проводник.txt"));
+        pathsForRemove.AsParallel().ForAll(path =&gt;
+        {
+          if (!path.StartsWith("#"))
+          {
+            string pathEdited = path.ToLower().Replace("%appdata%", userPath + "\\AppData").Replace("%user%", userPath).Replace("%documents%", documentsPath).Replace("%videos%", videosPath)
+            .Replace("%desktop%", desktopPath).Replace("%pictures%", picturesPath).Replace("%downloads%", userPath + "\\downloads").Replace("%portable%", appPath)
+            .Replace("%temp%", Environment.GetEnvironmentVariable("TEMP", EnvironmentVariableTarget.Machine));
+            if (pathEdited.StartsWith("\"")) { pathEdited = pathEdited.Replace("\"", ""); }
+            pathEdited = pathEdited.Replace("\\\\", "\\");
+            string mask = Path.GetFileName(pathEdited);
+            if (mask.Contains("*") || mask.Contains("?"))
+            {
+              try
+              {
+                string[] files = Directory.GetFiles(Path.GetDirectoryName(pathEdited), mask);
+                foreach (string file in files)
+                {
+                  File.Delete(file);
+                }
+                string[] folders = Directory.GetDirectories(Path.GetDirectoryName(pathEdited), mask);
+                foreach (string folder in folders)
+                {
+                  Directory.Delete(folder, true);
+                }
+              }
+              catch { }
+            }
+            if (Directory.Exists(pathEdited)) { try { Directory.Delete(pathEdited, true); } catch { } }
+            if (File.Exists(pathEdited)) { try { File.Delete(pathEdited); } catch { } }
+          }
+        });
+      }
+      catch { }
+      await Task.Delay(1);
+    }
+
+    async Task CreateCustomSymLinks(string appPath, string userPath, List&lt;string&gt; list)
+    {
+      try
+      {
+        List&lt;string&gt; pathsForCreate = new List&lt;string&gt;(File.ReadAllLines(appPath + @"\Data\Кастом.txt"));
+        pathsForCreate.AsParallel().ForAll(path =&gt;
+        {
+          if (!path.StartsWith("#"))
+          {
+            string pathEdited = path.ToLower().Replace("%appdata%", userPath + "\\AppData").Replace("%user%", userPath).Replace("%documents%", documentsPath).Replace("%videos%", videosPath)
+            .Replace("%desktop%", desktopPath).Replace("%pictures%", picturesPath).Replace("%downloads%", userPath + "\\downloads").Replace("%portable%", appPath)
+            .Replace("%temp%", Environment.GetEnvironmentVariable("TEMP", EnvironmentVariableTarget.Machine));
+            if (pathEdited.StartsWith("\"")) { pathEdited = pathEdited.Replace("\"", ""); }
+            pathEdited = pathEdited.Replace("\\\\", "\\");
+            string to = pathEdited.Substring(pathEdited.IndexOf('&gt;') + 2);
+            string from = pathEdited.Substring(0, pathEdited.IndexOf("&gt;") - 1);
+            list.Add(to);
+            if (Directory.Exists(from)) { Create(from, to, "Folder"); }
+            if (File.Exists(from)) { Create(from, to, "File"); }
+          }
+        });
+      }
+      catch { }
+      await Task.Delay(1);
+    }
+
+    string[] GetProcessPIDs(string executablePath)
+    {
+      string[] pids = new string[0];
+      try
+      {
+        Process process = Process.Start(new ProcessStartInfo
+        {
+          FileName = "cmd",
+          Arguments = "/c wmic process where \"ExecutablePath = '" + executablePath.Replace("\\", "\\\\") + "'\" get ProcessId",
+          UseShellExecute = false,
+          CreateNoWindow = true,
+          RedirectStandardOutput = true,
+          WindowStyle = ProcessWindowStyle.Hidden
+        });
+        pids = Regex.Matches(process.StandardOutput.ReadToEnd().ToString(), @"\w+")
+        .Cast&lt;Match&gt;()
+        .Select(x =&gt; x.Value)
+        .Skip(1)
+        .ToArray();
+        //MessageBox.Show(string.Join("\n", pids), pids.Length.ToString());
+
+      }
+      catch (Exception) { }
+      return pids;
+    }
+
+    void CheckRunsBeforeExit(List&lt;string&gt; executablePath)
+    {
+      try
+      {
+        executablePath.Remove(appPath + launcherName);
+        executablePath.ForEach(x =&gt;
+        {
+          string[] pids = GetProcessPIDs(x);
+          if (pids.Length == 0 &amp;&amp; x.StartsWith("C:\\Program Files"))
+          {
+            pids = GetProcessPIDs(x.Replace("C:", appPath + "Data"));
+          }
+          if (pids.Length == 0 &amp;&amp; x.Contains("\\AppData\\"))
+          {
+            List&lt;string&gt; checkForExe = Directory.GetFiles(appPath + "Data\\AppData", "*.exe", SearchOption.AllDirectories).ToList();
+            if (checkForExe.Count &gt; 0)
+            {
+              foreach (string exe in checkForExe)
+              {
+                string exeName = Path.GetFileName(exe).ToLower().Split('.')[0];
+                string xName = Path.GetFileName(x).ToLower().Split('.')[0];
+                if (exeName.Contains(xName) || exeName.Contains("update") || exeName.Contains("installer"))
+                {
+                  pids = GetProcessPIDs(exe).Length &gt; 0 ? GetProcessPIDs(exe) : GetProcessPIDs(exe.Replace(appPath + "Data", userPath));
+                  if (pids.Length &gt; 0)
+                  {
+                    break;
+                  }
+                }
+              }
+            }
+          }
+          if (pids.Length &gt; 0)
+          {
+            Process process = Process.GetProcessById(Convert.ToInt32(pids[0]));
+            process.WaitForExit();
+            CheckRunsBeforeExit(executablePath);
+          }
+        });
+      }
+      catch { }
+    }
+
+    string GetAppExecutablePath(string targetExePath, string resourceKey)
+    {
+      try
+      {
+        Assembly assembly = Assembly.LoadFile(targetExePath);
+        using (Stream resourceStream = assembly.GetManifestResourceStream("StringResource.resx"))
+        {
+          using (ResXResourceReader resxReader = new ResXResourceReader(resourceStream))
+          {
+            foreach (System.Collections.DictionaryEntry entry in resxReader)
+            {
+              if (entry.Key.ToString().Substring(0, entry.Key.ToString().Length - 1) == resourceKey)
+              {
+                if (resourceKey == "executablePath")
+                {
+                  string value = entry.Value.ToString();
+                  if (!value.StartsWith("C:\\Program Files"))
+                  {
+                    value = appPath + value;
+                  }
+                  if (!File.Exists(value))
+                  {
+                    List&lt;string&gt; checkForExe = Directory.GetFiles(Directory.GetParent(Path.GetDirectoryName(value)).FullName, Path.GetFileName(value), SearchOption.AllDirectories).ToList();
+                    if (checkForExe.Count &gt; 0)
+                    {
+                      value = checkForExe[0];
+                    }
+                  }
+                  return value;
+                }
+                else
+                {
+                  return entry.Value.ToString();
+                }
+              }
+            }
+          }
+        }
+      }
+      catch { }
+      return targetExePath;
+    }
+  }
+}</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAA4AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDAwZCPDRIZltNoX1zX+goJCC3AAAAGQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiBdzqcmYnieaec/0u6t/841Nn/SXt4/Q8N
+        C2sAAAADAAAAAAAAAAAAAAAAEhAODUA5L0pCOzB5FBIQUQAAAAdmt7icPdHY/zTt8/8g9vn/B/f5/yTc
+        4P8+PzbJAAAAGAAAAAAAAAAAmpCEmZyaivZ5koj/WYiF/0JPS/gAAAA2L9HbbBfm7/8N7vT/Bvf5/wT5
+        +/8K8vb/TJCK9wAAADEAAAAAAAAAAGqyvfZSvM7/VMfb/1LL3v9Ip7L/HBoXnQYRESod2OD2Eevy/wvx
+        9v8K8vb/Du70/ya1uOwAAAAaAAAAAAAAAABLvdCpUsjc/1HH3P9BxNn/MMPW/0VmZv96fm3/M9DX/xbl
+        7v8T6fD/D87VyRHY33UTydE1AAAAAAAAAAAAAAAANau/RULD2f9Lxtv/Vcnd/0zM3v9FzNz/Q8rY/y/b
+        6P8d3en/IKyy9QECAicAAAAAAAAAAAEBAQIEBAMUAAAAABFaYgE2uM7RPMHY/0XE2f9OyNz/T87g/zXO
+        4P8o0eL/JNXk/yylrf87NS/SODEoaVhPQWKFgHHAUlxV7QkIBi0AAAAAMam+OTe80vQ3uc/YPK/DTEGv
+        walNzd//QM/g/y3O3/8wzt//SZqg/1l/ef9mlI7/U7S//1Kzwf8iHxpuAAAAAAAAAAAokaMRcW9jXl9U
+        RL57eWniQsPZ/0rI3P9Ozd//Q8ze/0HL3v9QzuD/Usze/0HE2f85wNb/JkRFUgAAAAAAAAAAAAAAAGWn
+        rrpVo63/TLXH/z3B2P89wdj/RsTa/0/H3P9Yvs7/RIGK1TaCjoNHus59RLjMfiuKmg8AAAAAAAAAAAAA
+        AAA8scVjPcHX/zi/1/83utDgNbTKgje2zLFAwtj/Sa/B/1pcU/UKCQdHAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAEW51ATSxx5I1tcu2KpWlEAAAAAAXHiUBVbK/5TzB1/9arLf/JiMdewAAAAIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlY6JAka3yu45wNf/PMHX/yE5O0UAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsnLAcNLPIZjKtwlQAAAAAAAAAAAAA
+        AAAAAAAA/8+sQf4HrEH8A6xBgAOsQQADrEEAA6xBAAesQQAZrEEAAKxBgACsQcAArEHgAKxB4AesQeED
+        rEH/B6xB/4+sQQ==
+</value>
+  </data>
+</root>

@@ -1,0 +1,14 @@
+Ресурсы:
+
+IconExtractor - библиотека изщвлечения значков из испольняемых файлов и библиотек
+https://github.com/TsudaKageyu/IconExtractor
+
+CheckSum.exe - любая утилита команлной строки для добавления/изменения контрольной суммы файла
+http://run.to/sz
+или
+https://github.com/waleedassar/PEChecksum
+
+System.Management.Automation.dll - библиотека управления автоматизацией (.Net 4.0)
+
+Interop.IWshRuntimeLibrary.dll - библиотека объектной модели Windows Script Host
+
