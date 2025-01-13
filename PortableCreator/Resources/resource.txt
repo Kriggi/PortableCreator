@@ -1,14 +1,14 @@
-Ресурсы:
+п»їР РµСЃСѓСЂСЃС‹:
 
-IconExtractor - библиотека извлечения значков из исполняемых файлов и библиотек
+IconExtractor - Р±РёР±Р»РёРѕС‚РµРєР° РёР·РІР»РµС‡РµРЅРёСЏ Р·РЅР°С‡РєРѕРІ РёР· РёСЃРїРѕР»РЅСЏРµРјС‹С… С„Р°Р№Р»РѕРІ Рё Р±РёР±Р»РёРѕС‚РµРє
 https://github.com/TsudaKageyu/IconExtractor
 
-CheckSum.exe - любая утилита командной строки для добавления/изменения контрольной суммы файла
+CheckSum.exe - Р»СЋР±Р°СЏ СѓС‚РёР»РёС‚Р° РєРѕРјР°РЅРґРЅРѕР№ СЃС‚СЂРѕРєРё РґР»СЏ РґРѕР±Р°РІР»РµРЅРёСЏ/РёР·РјРµРЅРµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЊРЅРѕР№ СЃСѓРјРјС‹ С„Р°Р№Р»Р°
 http://run.to/sz
-или
+РёР»Рё
 https://github.com/waleedassar/PEChecksum
 
-System.Management.Automation.dll - библиотека управления автоматизацией (.Net 4.0)
+System.Management.Automation.dll - Р±РёР±Р»РёРѕС‚РµРєР° СѓРїСЂР°РІР»РµРЅРёСЏ Р°РІС‚РѕРјР°С‚РёР·Р°С†РёРµР№ (.Net 4.0)
 
-Interop.IWshRuntimeLibrary.dll - библиотека объектной модели Windows Script Host
+Interop.IWshRuntimeLibrary.dll - Р±РёР±Р»РёРѕС‚РµРєР° РѕР±СЉРµРєС‚РЅРѕР№ РјРѕРґРµР»Рё Windows Script Host
 
